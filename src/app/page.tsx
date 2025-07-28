@@ -10,13 +10,12 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
-import { courseFeatures, testimonials, blogPosts } from "@/data/content";
-import { ArrowRight, Star, Calendar, User, BookOpen } from "lucide-react";
+import { courseFeatures, testimonials, youtubeVideos } from "@/data/content";
+import { ArrowRight, Star, Youtube, BookOpen, PlayCircle } from "lucide-react";
 import CircuitBackground from "@/components/CircuitBackground";
-import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
-  const featuredPosts = blogPosts.slice(0, 3);
+  const featuredVideos = youtubeVideos.slice(0, 3);
 
   return (
     <div className="flex flex-col">
@@ -53,56 +52,47 @@ export default function Home() {
         </div>
       </section>
 
-       <section id="featured-posts" className="py-16 md:py-20 lg:py-24">
+       <section id="featured-videos" className="py-16 md:py-20 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              From My Blog
+              From My YouTube Channel
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Here you can get a taste of my teaching style with these insights and tips on key ICT topics.
+              Get a taste of my teaching style with these video lessons on key ICT topics.
             </p>
           </div>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredPosts.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
+            {featuredVideos.map((video) => (
+                <a key={video.id} href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener noreferrer" className="group block">
                     <Card className="h-full flex flex-col overflow-hidden bg-secondary/30 shadow-lg hover:shadow-primary/20 transition-all duration-300 transform hover:-translate-y-2">
                         <div className="relative w-full h-48 overflow-hidden">
                             <Image
-                                src={post.imageUrl}
-                                alt={post.title}
+                                src={video.thumbnailUrl}
+                                alt={video.title}
                                 layout="fill"
                                 objectFit="cover"
                                 className="transition-transform duration-500 group-hover:scale-110"
-                                data-ai-hint="programming technology"
+                                data-ai-hint="youtube thumbnail"
                             />
                             <div className="absolute inset-0 bg-image-overlay"></div>
+                            <div className="absolute inset-0 flex items-center justify-center">
+                                <PlayCircle className="w-16 h-16 text-white/80 group-hover:text-white transition-colors duration-300" />
+                            </div>
                         </div>
                         <CardHeader>
-                            <Badge variant="outline" className="w-fit mb-2 border-accent text-accent">{post.slug.split('-')[0].toUpperCase()}</Badge>
-                            <CardTitle className="text-xl group-hover:text-primary transition-colors">{post.title}</CardTitle>
-                            <CardDescription className="line-clamp-2">{post.excerpt}</CardDescription>
+                            <CardTitle className="text-xl group-hover:text-primary transition-colors">{video.title}</CardTitle>
+                            <CardDescription className="line-clamp-2">{video.description}</CardDescription>
                         </CardHeader>
-                        <CardContent className="flex-grow" />
-                        <CardFooter className="flex justify-between text-sm text-muted-foreground">
-                            <div className="flex items-center gap-2">
-                                <User className="h-4 w-4" />
-                                <span>{post.author}</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <Calendar className="h-4 w-4" />
-                                <span>{post.date}</span>
-                            </div>
-                        </CardFooter>
                     </Card>
-                </Link>
+                </a>
             ))}
             </div>
             <div className="text-center mt-12">
               <Button asChild variant="outline">
                 <Link href="/blog">
-                  Read More From My Blog
-                  <BookOpen className="ml-2 h-4 w-4" />
+                  Watch More Videos
+                  <Youtube className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>

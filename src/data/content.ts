@@ -1,95 +1,51 @@
 import { BookCopy, CheckSquare, Clock, Star, type LucideIcon, BrainCircuit, Target, BookOpenText, Users } from "lucide-react";
 
-export interface BlogPost {
-  slug: string;
+export interface YoutubeVideo {
+  id: string;
   title: string;
-  excerpt: string;
-  date: string;
-  author: string;
-  imageUrl: string;
-  content: string;
+  description: string;
+  thumbnailUrl: string;
 }
 
-export const blogPosts: BlogPost[] = [
+export const youtubeVideos: YoutubeVideo[] = [
   {
-    slug: 'number-systems-deep-dive',
-    title: 'A Deep Dive into Number Systems',
-    excerpt: 'I will help you understand binary, octal, decimal, and hexadecimal number systems, a fundamental concept in ICT.',
-    date: 'July 15, 2024',
-    author: 'Sakhawoat Súññÿ Sir',
-    imageUrl: 'https://placehold.co/600x400.png',
-    content: `
-      <h2 class="text-2xl font-bold mb-4">An Introduction to Number Systems from My Perspective</h2>
-      <p class="mb-4">Number systems are the cornerstone of digital computing. In this post, I'll explore the four main types you need to know for your HSC exams.</p>
-      <h3 class="text-xl font-bold mb-2">1. Decimal (Base-10)</h3>
-      <p class="mb-4">This is the system we use every day, with digits 0-9. It's our natural way of counting.</p>
-      <h3 class="text-xl font-bold mb-2">2. Binary (Base-2)</h3>
-      <p class="mb-4">This is the language of computers. It uses only two digits: 0 and 1. Every command, character, and pixel is represented in binary.</p>
-      <div class="relative my-4 rounded-lg shadow-md overflow-hidden">
-        <img src="https://placehold.co/500x300.png" alt="Binary code" class="w-full" data-ai-hint="binary code" />
-        <div class="absolute inset-0 bg-image-overlay"></div>
-      </div>
-      <h3 class="text-xl font-bold mb-2">3. Octal (Base-8)</h3>
-      <p class="mb-4">This system uses digits 0-7. I find it's a convenient way to represent binary numbers in a more compact form.</p>
-      <h3 class="text-xl font-bold mb-2">4. Hexadecimal (Base-16)</h3>
-      <p class="mb-4">This uses digits 0-9 and letters A-F. I frequently use hexadecimal in programming for color codes, memory addresses, and more.</p>
-      <p>From my experience, mastering conversions between these systems is key to scoring high in Chapter 3. Practice is essential!</p>
-    `,
+    id: 'nS4h-k4O9gA', // Example YouTube Video ID
+    title: 'Number Systems Explained',
+    description: 'A comprehensive tutorial on binary, decimal, and hexadecimal number systems. I cover everything you need for the HSC exam.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
   },
   {
-    slug: 'mastering-html-and-css',
-    title: 'How I Teach HTML & CSS for Chapter 4',
-    excerpt: 'I will teach you the essentials of web design and development with HTML for structure and CSS for styling.',
-    date: 'July 20, 2024',
-    author: 'Sakhawoat Súññÿ Sir',
-    imageUrl: 'https://placehold.co/600x400.png',
-    content: `
-      <h2 class="text-2xl font-bold mb-4">My Approach to Building the Web</h2>
-      <p class="mb-4">In Chapter 4, I introduce you to the visual side of computing: web development. HTML and CSS are the two pillars of building websites.</p>
-      <h3 class="text-xl font-bold mb-2">HTML: The Skeleton</h3>
-      <p class="mb-4">I teach that HTML (HyperText Markup Language) provides the basic structure of sites. I tell my students to think of it as the skeleton that holds everything together. We use tags like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;div&gt;</code> to organize content.</p>
-      <h3 class="text-xl font-bold mb-2">CSS: The Style</h3>
-      <p class="mb-4">CSS (Cascading Style Sheets) is what I use to style the HTML. Colors, fonts, layouts - it's all handled by CSS. It's what makes websites look good.</p>
-      <pre class="bg-card text-foreground p-4 rounded-md my-4"><code class="language-css">
-body {
-  font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
-}
-      </code></pre>
-      <p>I believe a solid understanding of both is required for the practical and theoretical parts of your exam.</p>
-    `,
+    id: 'zN83vY8kC_A', // Example YouTube Video ID
+    title: 'Mastering HTML & CSS',
+    description: 'In this video, I walk you through building a complete webpage from scratch using HTML for structure and CSS for styling.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
   },
   {
-    slug: 'c-programming-basics',
-    title: 'How I Introduce C Programming',
-    excerpt: 'I provide an introduction to the C programming language, a powerful tool and a critical part of the HSC syllabus.',
-    date: 'July 25, 2024',
-    author: 'Sakhawoat Súññÿ Sir',
-    imageUrl: 'https://placehold.co/600x400.png',
-    content: `
-      <h2 class="text-2xl font-bold mb-4">The Power of C</h2>
-      <p class="mb-4">Chapter 5, "Programming Language," is often the most challenging for students. In this post, I'll demystify the basics of C for you.</p>
-      <h3 class="text-xl font-bold mb-2">Your First Program: "Hello, World!"</h3>
-      <p class="mb-4">I believe every programmer should start here. It's a simple program that prints "Hello, World!" to the screen.</p>
-      <pre class="bg-card text-foreground p-4 rounded-md my-4"><code class="language-c">
-#include <stdio.h>
-
-int main() {
-  printf("Hello, World!");
-  return 0;
-}
-      </code></pre>
-      <h3 class="text-xl font-bold mb-2">Key Concepts I Focus On</h3>
-      <ul class="list-disc list-inside mb-4">
-        <li>Variables & Data Types</li>
-        <li>Input & Output</li>
-        <li>Conditional Logic (if-else)</li>
-        <li>Loops (for, while)</li>
-      </ul>
-      <p>You don't have to be intimidated! With my step-by-step approach, I am confident you can learn to code in C.</p>
-    `,
+    id: 'f9vWAqMv4aI', // Example YouTube Video ID
+    title: 'Introduction to C Programming',
+    description: 'Your first step into the world of programming. I make C language easy and approachable for absolute beginners.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
   },
+   {
+    id: '7l4sVxSlA6E', // Example YouTube Video ID
+    title: 'Understanding Logic Gates',
+    description: 'A deep dive into AND, OR, NOT, NAND, NOR, and XOR gates. I use animations to make it clear and simple.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
+  },
+  {
+    id: '5p20-Yt2y4s', // Example YouTube Video ID
+    title: 'Data Communication Concepts',
+    description: 'Learn about simplex, half-duplex, and full-duplex communication, along with network topologies.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
+  },
+  {
+    id: 'jI-R_lI4-L8', // Example YouTube Video ID
+    title: 'SQL Database for Beginners',
+    description: 'A practical guide to writing SQL queries. I cover everything from SELECT statements to JOINs.',
+    thumbnailUrl: 'https://placehold.co/600x400.png'
+  }
 ];
+
 
 interface CourseFeature {
     title: string;
@@ -137,7 +93,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Fahim Ahmed",
         batch: "HSC Batch 2023",
-        quote: "The strategic preparation was amazing! I felt so confident in the board exam because it was just like one of our mock tests.",
+        quote: "The strategic preparation was amazing! I felt so confident in the board exam because the questions felt so familiar.",
         avatar: "https://placehold.co/100x100.png",
     },
     {
