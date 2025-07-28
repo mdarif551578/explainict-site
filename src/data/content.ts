@@ -114,9 +114,9 @@ export const courseFeatures: CourseFeature[] = [
         icon: BookOpenText,
     },
     {
-        title: "Supportive Community",
-        description: "Join a community of dedicated learners. Get your doubts cleared anytime in our private Messenger group.",
-        icon: Users,
+        title: "Proven Success",
+        description: "Join a course with a strong track record of helping students achieve outstanding A+ results.",
+        icon: Star,
     },
 ];
 
@@ -137,7 +137,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Fahim Ahmed",
         batch: "HSC Batch 2023",
-        quote: "The '100% common' guarantee sounded too good to be true, but it was real! The board exam felt just like one of our mock tests.",
+        quote: "The strategic preparation was amazing! The board exam felt just like one of our mock tests, and I was so confident.",
         avatar: "https://placehold.co/100x100.png",
     },
     {

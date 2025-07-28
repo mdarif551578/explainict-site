@@ -160,7 +160,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Ready to Master ICT?</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't leave your HSC results to chance. Join a course that guarantees success and builds a strong foundation for your future. Let's start this journey together.
+            Don't leave your HSC results to chance. Join a course that builds a strong foundation for your future. Let's start this journey together.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">

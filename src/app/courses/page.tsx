@@ -27,7 +27,7 @@ export default function CoursesPage() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">The Ultimate HSC ICT Course</h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-200">
-            A meticulously crafted 4-month program to ensure your success.
+            A meticulously crafted 4-month program designed for your success.
           </p>
         </div>
       </div>
@@ -62,12 +62,12 @@ export default function CoursesPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <ShieldCheck className="text-primary h-6 w-6" />
-                  <span>The Guarantee</span>
+                  <span>Our Commitment to You</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  I am so confident in my teaching methodology and materials that I offer a <strong>100% common question guarantee</strong> for your board exams. My curriculum is designed to cover every possible angle, ensuring you are perfectly prepared.
+                  I am confident in my teaching methodology and materials. My curriculum is designed to cover every possible angle, ensuring you are thoroughly prepared for your board exams. Your success is my top priority.
                 </p>
               </CardContent>
             </Card>
