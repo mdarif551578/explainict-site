@@ -15,7 +15,7 @@ import Image from "next/image";
 export default function CoursesPage() {
   return (
     <div className="bg-background text-foreground">
-      <div className="relative py-20 lg:py-28 text-center">
+      <div className="relative py-16 md:py-20 lg:py-28 text-center">
         <CircuitBackground />
         <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">The Ultimate HSC ICT Course</h1>
@@ -32,7 +32,7 @@ export default function CoursesPage() {
             <Accordion type="single" collapsible className="w-full">
               {syllabus.map((item, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border-border/50">
-                  <AccordionTrigger className="text-lg hover:no-underline">
+                  <AccordionTrigger className="text-lg hover:no-underline text-left">
                     {item.chapter}
                   </AccordionTrigger>
                   <AccordionContent>
@@ -74,10 +74,10 @@ export default function CoursesPage() {
                         Secure your spot and start your journey to mastering ICT.
                     </p>
                     <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                        <Link href="/contact">
+                        <a href="https://m.me/YOUR_USERNAME_HERE" target="_blank" rel="noopener noreferrer">
                             Contact Sir Now
                             <ArrowRight className="ml-2 h-4 w-4" />
-                        </Link>
+                        </a>
                     </Button>
                 </CardContent>
             </Card>

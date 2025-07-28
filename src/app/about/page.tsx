@@ -5,7 +5,7 @@ import CircuitBackground from "@/components/CircuitBackground";
 export default function AboutPage() {
   return (
     <div className="bg-background text-foreground">
-      <div className="relative py-20 lg:py-28 text-center">
+      <div className="relative py-16 md:py-20 lg:py-28 text-center">
         <CircuitBackground />
         <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About SakhawoaT SunnY SiR</h1>
@@ -18,7 +18,7 @@ export default function AboutPage() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
           <div className="lg:col-span-1 flex justify-center">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary">
               <Image
                 src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/487495286_3931367967129939_6664907565673839265_n.jpg"
                 alt="SakhawoaT SunnY SiR"
@@ -26,9 +26,10 @@ export default function AboutPage() {
                 objectFit="cover"
                 objectPosition="top"
               />
+              <div className="absolute inset-0 bg-image-overlay-2"></div>
             </div>
           </div>
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-2 space-y-6 text-center lg:text-left">
             <h2 className="text-3xl font-bold">A Decade of Dedication</h2>
             <p className="text-lg text-muted-foreground">
               SakhawoaT SunnY SiR has been a beacon of knowledge in the field of Information and Communication Technology for over ten years. His journey began with a simple mission: to demystify technology for students and empower them to excel in their academic and future careers.

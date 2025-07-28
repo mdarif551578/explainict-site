@@ -18,6 +18,7 @@ export default {
     extend: {
       backgroundImage: {
         'image-overlay': 'linear-gradient(to top, black 0%, rgba(0,0,0,0.5) 50%, transparent 100%)',
+        'image-overlay-2': 'linear-gradient(to top, black 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 100%)',
       },
       fontFamily: {
         body: ['Inter', 'sans-serif'],

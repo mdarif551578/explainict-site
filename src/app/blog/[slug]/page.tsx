@@ -23,7 +23,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-16 max-w-4xl">
+    <div className="container mx-auto px-4 py-8 sm:py-12 md:py-16 max-w-4xl">
       <Button asChild variant="ghost" className="mb-8">
         <Link href="/blog">
           <ArrowLeft className="mr-2 h-4 w-4" />
@@ -33,7 +33,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
       <article>
         <header className="mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">{post.title}</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">{post.title}</h1>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-muted-foreground">
             <div className="flex items-center gap-2">
               <User className="h-4 w-4" />
@@ -56,7 +56,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             priority
             data-ai-hint="technology abstract"
           />
-          <div className="absolute inset-0 bg-image-overlay" />
+          <div className="absolute inset-0 bg-image-overlay-2" />
         </div>
 
         <div

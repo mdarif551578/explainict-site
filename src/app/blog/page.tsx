@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 export default function BlogPage() {
   return (
     <div>
-        <div className="relative py-20 lg:py-28 text-center">
+        <div className="relative py-16 md:py-20 lg:py-28 text-center">
             <CircuitBackground />
             <div className="container mx-auto px-4">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight">ICT Insights</h1>
@@ -40,7 +40,7 @@ export default function BlogPage() {
                                 className="transition-transform duration-500 group-hover:scale-110"
                                 data-ai-hint="programming technology"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                            <div className="absolute inset-0 bg-image-overlay-2"></div>
                         </div>
                         <CardHeader>
                             <Badge variant="outline" className="w-fit mb-2 border-accent text-accent">{post.slug.split('-')[0].toUpperCase()}</Badge>

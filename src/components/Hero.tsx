@@ -17,7 +17,7 @@ export default function Hero() {
           priority
           data-ai-hint="teacher portrait"
         />
-        <div className="absolute inset-0 bg-image-overlay" />
+        <div className="absolute inset-0 bg-image-overlay-2" />
       </div>
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-shadow-lg">
@@ -28,10 +28,10 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg transition-transform hover:scale-105">
-            <Link href="/courses">
+            <a href="https://m.me/YOUR_USERNAME_HERE" target="_blank" rel="noopener noreferrer">
               Enroll Now
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
+            </a>
           </Button>
           <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-background transition-transform hover:scale-105">
             <Link href="#overview">
