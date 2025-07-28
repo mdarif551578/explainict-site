@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="relative h-[calc(100vh-4rem)] min-h-[500px] w-full flex items-center justify-center">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/item_04.jpg"
+          src="/item_01.jpg"
           alt="A vibrant classroom with students learning about technology"
           layout="fill"
           objectFit="cover"
@@ -28,7 +28,7 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg transition-transform hover:scale-105">
-            <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/profile.php?id=61560225422090" target="_blank" rel="noopener noreferrer">
               Enroll Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
