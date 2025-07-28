@@ -27,11 +27,12 @@ export default function AboutPage() {
           <div className="lg:col-span-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary">
               <Image
-                src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/487495286_3931367967129939_6664907565673839265_n.jpg"
+                src="https://placehold.co/400x400.png"
                 alt="Sakhawoat Súññÿ Sir"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="top"
+                data-ai-hint="teacher portrait"
               />
               <div className="absolute inset-0 bg-image-overlay-full"></div>
             </div>
