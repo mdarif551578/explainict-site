@@ -39,7 +39,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Code className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">ICT HSC Guide</span>
+          <span className="font-bold text-lg">Explain ICT</span>
         </Link>
         <nav className="hidden md:flex gap-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -59,7 +59,7 @@ export default function Header() {
                 <div className="flex items-center justify-between border-b pb-4">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setIsSheetOpen(false)}>
                     <Code className="h-6 w-6 text-primary" />
-                    <span className="font-bold">ICT HSC Guide</span>
+                    <span className="font-bold">Explain ICT</span>
                   </Link>
                   <SheetClose asChild>
                     <Button variant="ghost" size="icon">

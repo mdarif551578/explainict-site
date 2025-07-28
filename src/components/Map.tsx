@@ -9,7 +9,7 @@ export default function Map() {
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Location of ICT HSC Guide on Google Maps"
+          title="Location of Explain ICT on Google Maps"
         ></iframe>
       </div>
     );

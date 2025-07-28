@@ -21,10 +21,10 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Code className="h-8 w-8 text-primary" />
-              <span className="font-bold text-xl">ICT HSC Guide</span>
+              <span className="font-bold text-xl">Explain ICT</span>
             </Link>
             <p className="text-muted-foreground">
-              Your complete guide to mastering ICT for the HSC exam with SakhawoaT SunnY SiR.
+              Your complete guide to mastering ICT for the HSC exam with Sakhawoat Súññÿ Sir.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -79,7 +79,7 @@ export default function Footer() {
 
         </div>
         <div className="mt-12 pt-8 border-t border-border/40 text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} ICT HSC Guide by SakhawoaT SunnY SiR. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Explain ICT by Sakhawoat Súññÿ Sir. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

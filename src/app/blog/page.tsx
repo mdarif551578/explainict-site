@@ -28,7 +28,7 @@ export default function BlogPage() {
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight">ICT Insights</h1>
                 <p className="mt-4 max-w-3xl text-lg text-slate-200">
-                Tips, tricks, and strategies from SakhawoaT SunnY SiR to help you excel.
+                Tips, tricks, and strategies from Sakhawoat Súññÿ Sir to help you excel.
                 </p>
             </div>
         </div>

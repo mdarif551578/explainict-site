@@ -5,9 +5,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'ICT HSC Guide',
-  description: 'Master ICT for HSC with SakhawoaT SunnY SiR. Comprehensive courses, exam guarantees, and expert tips.',
-  keywords: ['ICT', 'HSC', 'Education', 'Bangladesh', 'SakhawoaT SunnY SiR', 'Madaripur'],
+  title: 'Explain ICT - Sakhawoat Súññÿ Sir',
+  description: 'Master ICT for HSC with Sakhawoat Súññÿ Sir. Comprehensive courses, exam guarantees, and expert tips.',
+  keywords: ['ICT', 'HSC', 'Education', 'Bangladesh', 'Sakhawoat Súññÿ Sir', 'Madaripur', 'Explain ICT'],
 };
 
 export default function RootLayout({

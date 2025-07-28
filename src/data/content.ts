@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     title: 'A Deep Dive into Number Systems',
     excerpt: 'Understand binary, octal, decimal, and hexadecimal number systems, a fundamental concept in ICT.',
     date: 'July 15, 2024',
-    author: 'SakhawoaT SunnY SiR',
+    author: 'Sakhawoat Súññÿ Sir',
     imageUrl: 'https://placehold.co/600x400.png',
     content: `
       <h2 class="text-2xl font-bold mb-4">Introduction to Number Systems</h2>
@@ -41,7 +41,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Mastering HTML & CSS for Chapter 4',
     excerpt: 'Learn the essentials of web design and development with HTML for structure and CSS for styling.',
     date: 'July 20, 2024',
-    author: 'SakhawoaT SunnY SiR',
+    author: 'Sakhawoat Súññÿ Sir',
     imageUrl: 'https://placehold.co/600x400.png',
     content: `
       <h2 class="text-2xl font-bold mb-4">Building the Web</h2>
@@ -64,7 +64,7 @@ body {
     title: 'Getting Started with C Programming',
     excerpt: 'An introduction to the C programming language, a powerful tool and a critical part of the HSC syllabus.',
     date: 'July 25, 2024',
-    author: 'SakhawoaT SunnY SiR',
+    author: 'Sakhawoat Súññÿ Sir',
     imageUrl: 'https://placehold.co/600x400.png',
     content: `
       <h2 class="text-2xl font-bold mb-4">The Power of C</h2>
@@ -72,7 +72,7 @@ body {
       <h3 class="text-xl font-bold mb-2">Your First Program: "Hello, World!"</h3>
       <p class="mb-4">Every programmer starts here. It's a simple program that prints "Hello, World!" to the screen.</p>
       <pre class="bg-card text-foreground p-4 rounded-md my-4"><code class="language-c">
-#include &lt;stdio.h&gt;
+#include <stdio.h>
 
 int main() {
   printf("Hello, World!");
@@ -131,7 +131,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Anika Rahman",
         batch: "HSC Batch 2023",
-        quote: "Sunny Sir's teaching method is incredible. I was weak in programming, but his classes made it so easy. Got an A+!",
+        quote: "Sir's teaching method is incredible. I was weak in programming, but his classes made it so easy. Got an A+!",
         avatar: "https://placehold.co/100x100.png",
     },
     {
