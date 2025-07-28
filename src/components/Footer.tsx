@@ -3,7 +3,7 @@ import { Code, Facebook, Youtube, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: 'https://m.me/sakhawoatsunny.sir' },
+    { name: 'Facebook', icon: Facebook, href: 'https://web.facebook.com/profile.php?id=61560225422090' },
     { name: 'YouTube', icon: Youtube, href: '#' },
   ];
 

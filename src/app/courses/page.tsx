@@ -81,7 +81,7 @@ export default function CoursesPage() {
                         Secure your spot and start your journey to mastering ICT with me.
                     </p>
                     <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                        <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">
+                        <a href="https://web.facebook.com/profile.php?id=61560225422090" target="_blank" rel="noopener noreferrer">
                             Contact Me Now
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </a>
