@@ -15,7 +15,7 @@ export default function VideoGalleryPage() {
     <div>
       <div className="relative h-64 md:h-80 w-full">
         <Image
-          src="https://placehold.co/1200x400.png"
+          src="/item_05.jpg"
           alt="A person watching educational videos"
           layout="fill"
           objectFit="cover"

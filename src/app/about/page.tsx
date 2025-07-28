@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className="bg-background text-foreground">
       <div className="relative h-64 md:h-80 w-full">
         <Image
-          src="https://placehold.co/1200x400.png"
+          src="/item_06_1.jpg"
           alt="A modern classroom or library"
           layout="fill"
           objectFit="cover"
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="lg:col-span-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="/item_07.jpg"
                 alt="Sakhawoat Súññÿ Sir"
                 layout="fill"
                 objectFit="cover"

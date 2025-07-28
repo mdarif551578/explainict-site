@@ -8,7 +8,7 @@ export default function ContactPage() {
     <div>
         <div className="relative h-64 md:h-80 w-full">
             <Image
-              src="https://placehold.co/1200x400.png"
+              src="/item_08_1.jpg"
               alt="Contact center with operators"
               layout="fill"
               objectFit="cover"
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     </div>
                      <div className="mt-8">
                         <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                            <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">
+                            <a href="https://web.facebook.com/profile.php?id=61560225422090" target="_blank" rel="noopener noreferrer">
                                 Send Me a Message
                                 <Send className="ml-2 h-4 w-4" />
                             </a>

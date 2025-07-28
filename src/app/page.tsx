@@ -160,7 +160,7 @@ export default function Home() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-               <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">Contact Me</a>
+               <a href="https://web.facebook.com/profile.php?id=61560225422090" target="_blank" rel="noopener noreferrer">Contact Me</a>
             </Button>
           </div>
         </div>

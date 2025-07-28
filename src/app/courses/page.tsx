@@ -16,7 +16,7 @@ export default function CoursesPage() {
     <div className="bg-background text-foreground">
        <div className="relative h-64 md:h-80 w-full">
         <Image
-          src="https://placehold.co/1200x400.png"
+          src="/item_03.jpg"
           alt="Students learning in a classroom"
           layout="fill"
           objectFit="cover"

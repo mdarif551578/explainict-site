@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="relative h-[calc(100vh-4rem)] min-h-[500px] w-full flex items-center justify-center">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://placehold.co/1200x800.png"
+          src="/item_04.jpg"
           alt="A vibrant classroom with students learning about technology"
           layout="fill"
           objectFit="cover"
