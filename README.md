@@ -4,7 +4,7 @@ This is a personal website for Sakhawoat Súññÿ Sir's ICT teaching center, "E
 
 ## Live Site
 
-You can view the live site here: [http://explainict.pages.dev/](http://explainict.pages.dev/)
+You can view the live site here: [https://explainict.pages.dev/](http://explainict.pages.dev/)
 
 ## Getting Started
 
