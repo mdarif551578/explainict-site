@@ -10,8 +10,8 @@ import { cn } from '@/lib/utils';
 
 const navLinks = [
   { href: '/', label: 'Home', icon: Home },
-  { href: '/courses', label: 'Courses', icon: BookOpen },
-  { href: '/blog', label: 'Videos', icon: Youtube },
+  { href: '/courses', label: 'Course Details', icon: BookOpen },
+  { href: '/blog', label: 'My Videos', icon: Youtube },
   { href: '/about', label: 'About Me', icon: User },
   { href: '/contact', label: 'Contact', icon: Mail },
 ];

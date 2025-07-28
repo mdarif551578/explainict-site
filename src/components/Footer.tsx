@@ -8,7 +8,7 @@ export default function Footer() {
   ];
 
   const quickLinks = [
-    { href: '/courses', label: 'My Courses' },
+    { href: '/courses', label: 'My Course' },
     { href: '/blog', label: 'My Videos' },
     { href: '/about', label: 'About Me' },
     { href: '/contact', label: 'Contact Me' },
