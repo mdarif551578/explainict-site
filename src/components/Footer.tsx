@@ -8,10 +8,10 @@ export default function Footer() {
   ];
 
   const quickLinks = [
-    { href: '/courses', label: 'Courses' },
-    { href: '/blog', label: 'Blog' },
+    { href: '/courses', label: 'My Courses' },
+    { href: '/blog', label: 'My Blog' },
     { href: '/about', label: 'About Me' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/contact', label: 'Contact Me' },
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
               <span className="font-bold text-xl">Explain ICT</span>
             </Link>
             <p className="text-muted-foreground">
-              Your complete guide to mastering ICT for the HSC exam with Sakhawoat Súññÿ Sir.
+              My complete guide to mastering ICT for the HSC exam.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Contact Info</h3>
+            <h3 className="font-semibold text-lg mb-4">My Contact Info</h3>
             <address className="space-y-2 not-italic text-muted-foreground">
               <p className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 mt-1 shrink-0 text-primary" />

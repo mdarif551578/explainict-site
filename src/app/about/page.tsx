@@ -15,9 +15,9 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-image-overlay" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About Sakhawoat Súññÿ Sir</h1>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About Me</h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-200">
-            A passionate educator dedicated to making ICT accessible for everyone.
+            I am a passionate educator dedicated to making ICT accessible for everyone.
           </p>
         </div>
       </div>
@@ -40,26 +40,26 @@ export default function AboutPage() {
           <div className="lg:col-span-2 space-y-6 text-center lg:text-left">
             <h2 className="text-3xl font-bold">A Decade of Dedication</h2>
             <p className="text-lg text-muted-foreground">
-              Sakhawoat Súññÿ Sir has been a beacon of knowledge in the field of Information and Communication Technology for over ten years. His journey began with a simple mission: to demystify technology for students and empower them to excel in their academic and future careers.
+              For over ten years, I have been a beacon of knowledge in the field of Information and Communication Technology. My journey began with a simple mission: to demystify technology for my students and empower them to excel in their academic and future careers.
             </p>
             <p className="text-lg text-muted-foreground">
-              Based in Madaripur, he has become a household name for quality ICT education, known for his unique ability to break down complex topics into simple, digestible concepts. His students not only score well but also develop a genuine interest in the subject.
+              Based in Madaripur, I have become a well-known name for quality ICT education, recognized for my unique ability to break down complex topics into simple, digestible concepts. My students not only score well but also develop a genuine interest in the subject.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
               <div className="flex flex-col items-center text-center p-4 bg-secondary/30 rounded-lg">
                 <BookOpen className="h-10 w-10 text-primary mb-2" />
                 <h3 className="text-xl font-bold">Innovative Teaching</h3>
-                <p className="text-sm text-muted-foreground">Uses practical examples and real-world scenarios.</p>
+                <p className="text-sm text-muted-foreground">I use practical examples and real-world scenarios.</p>
               </div>
               <div className="flex flex-col items-center text-center p-4 bg-secondary/30 rounded-lg">
                 <Heart className="h-10 w-10 text-primary mb-2" />
                 <h3 className="text-xl font-bold">Student-Centric</h3>
-                <p className="text-sm text-muted-foreground">Focuses on individual student needs and learning pace.</p>
+                <p className="text-sm text-muted-foreground">I focus on individual student needs and learning pace.</p>
               </div>
               <div className="flex flex-col items-center text-center p-4 bg-secondary/30 rounded-lg">
                 <Award className="h-10 w-10 text-primary mb-2" />
                 <h3 className="text-xl font-bold">Proven Results</h3>
-                <p className="text-sm text-muted-foreground">A long history of students achieving A+ grades.</p>
+                <p className="text-sm text-muted-foreground">I have a long history of students achieving A+ grades.</p>
               </div>
             </div>
           </div>

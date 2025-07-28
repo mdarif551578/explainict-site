@@ -27,10 +27,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Why Choose This Course?
+              Why Choose My Course?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              This isn't just another ICT course. It's a comprehensive, result-oriented program meticulously designed to ensure your success. I combine deep subject matter expertise with a teaching style that makes complex topics simple and engaging. My mission is to empower you with the skills and confidence to not only pass but to excel.
+              This isn't just another ICT course. It's a comprehensive, result-oriented program I have meticulously designed to ensure your success. I combine my deep subject matter expertise with a teaching style that makes complex topics simple and engaging. My mission is to empower you with the skills and confidence to not only pass, but to excel.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -60,7 +60,7 @@ export default function Home() {
               From My Blog
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-              Get a taste of my teaching style with these insights and tips on key ICT topics.
+              Here you can get a taste of my teaching style with these insights and tips on key ICT topics.
             </p>
           </div>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="text-center mt-12">
               <Button asChild variant="outline">
                 <Link href="/blog">
-                  Read More Posts
+                  Read More From My Blog
                   <BookOpen className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -113,10 +113,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Words from My Students
+              Words From My Students
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm proud of the results my students achieve. Here's what some of them have to say about their experience.
+              I'm proud of the results my students achieve. Here's what some of them have to say about their experience with me.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -160,12 +160,12 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Ready to Master ICT?</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't leave your HSC results to chance. Join a course that builds a strong foundation for your future. Let's start this journey together.
+            Don't leave your HSC results to chance. Join my course that builds a strong foundation for your future. Let's start this journey together.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="/courses">
-                Explore The Course
+                Explore My Course
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>

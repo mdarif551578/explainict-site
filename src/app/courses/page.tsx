@@ -25,9 +25,9 @@ export default function CoursesPage() {
         />
         <div className="absolute inset-0 bg-image-overlay" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">The Ultimate HSC ICT Course</h1>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">My Ultimate HSC ICT Course</h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-200">
-            A meticulously crafted 4-month program designed for your success.
+            I have meticulously crafted this 4-month program for your success.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function CoursesPage() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold mb-6">Course Syllabus</h2>
+            <h2 className="text-3xl font-bold mb-6">My Course Syllabus</h2>
             <Accordion type="single" collapsible className="w-full">
               {syllabus.map((item, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border-border/50">
@@ -62,7 +62,7 @@ export default function CoursesPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <ShieldCheck className="text-primary h-6 w-6" />
-                  <span>Our Commitment to You</span>
+                  <span>My Commitment to You</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -78,7 +78,7 @@ export default function CoursesPage() {
                 </CardHeader>
                 <CardContent>
                     <p className="text-muted-foreground mb-4">
-                        Secure your spot and start your journey to mastering ICT.
+                        Secure your spot and start your journey to mastering ICT with me.
                     </p>
                     <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                         <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">

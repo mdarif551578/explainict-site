@@ -24,7 +24,7 @@ export default function Hero() {
           Master ICT for HSC
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-slate-200">
-          Join my proven 4-month course. Go from zero to hero with 50+ classes and a track record of outstanding results.
+          Join my proven 4-month course. I will help you go from zero to hero with 50+ classes and a track record of outstanding results.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg transition-transform hover:scale-105">
