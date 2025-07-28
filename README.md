@@ -1,6 +1,6 @@
 # Explain ICT by Sakhawoat Súññÿ Sir
 
-This is a personal website for Sakhawoat Súññÿ Sir's ICT teaching center, "Explain ICT". It's built with Next.js and Firebase.
+This is a personal website for Sakhawoat Súññÿ Sir's ICT teaching center, "Explain ICT". It's built with Next.js and Firebase Studio.
 
 ## Live Site
 
