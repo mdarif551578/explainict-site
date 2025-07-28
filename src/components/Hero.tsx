@@ -8,14 +8,14 @@ export default function Hero() {
     <div className="relative h-[calc(100vh-4rem)] min-h-[500px] w-full flex items-center justify-center">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/487495286_3931367967129939_6664907565673839265_n.jpg"
-          alt="SakhawoaT SunnY SiR teaching"
+          src="https://placehold.co/1200x800.png"
+          alt="A vibrant classroom with students learning about technology"
           layout="fill"
           objectFit="cover"
-          objectPosition="top"
+          objectPosition="center"
           className="opacity-40"
           priority
-          data-ai-hint="teacher portrait"
+          data-ai-hint="classroom teaching"
         />
         <div className="absolute inset-0 bg-image-overlay" />
       </div>
