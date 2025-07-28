@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, BookOpen, Youtube, Home, Mail, User, X, Code } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
@@ -55,9 +55,9 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[240px]">
-              <div className="flex flex-col h-full">
-                <div className="flex items-center justify-between border-b pb-4">
-                  <Link href="/" className="flex items-center gap-2" onClick={() => setIsSheetOpen(false)}>
+                <SheetHeader className="border-b pb-4 flex flex-row justify-between items-center">
+                   <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+                   <Link href="/" className="flex items-center gap-2" onClick={() => setIsSheetOpen(false)}>
                     <Code className="h-6 w-6 text-primary" />
                     <span className="font-bold">Explain ICT</span>
                   </Link>
@@ -67,7 +67,8 @@ export default function Header() {
                         <span className="sr-only">Close menu</span>
                     </Button>
                   </SheetClose>
-                </div>
+                </SheetHeader>
+                <div className="flex flex-col h-full">
                 <nav className="flex flex-col gap-6 mt-6">
                   {navLinks.map((link) => (
                     <Link
