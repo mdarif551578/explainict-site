@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
       <p class="mb-4">The language of computers. It uses only two digits: 0 and 1. Every command, character, and pixel is represented in binary.</p>
       <div class="relative my-4 rounded-lg shadow-md overflow-hidden">
         <img src="https://placehold.co/500x300.png" alt="Binary code" class="w-full" data-ai-hint="binary code" />
-        <div class="absolute inset-0 bg-image-overlay-2"></div>
+        <div class="absolute inset-0 bg-image-overlay"></div>
       </div>
       <h3 class="text-xl font-bold mb-2">3. Octal (Base-8)</h3>
       <p class="mb-4">Uses digits 0-7. It's a convenient way to represent binary numbers in a more compact form.</p>
@@ -115,7 +115,7 @@ export const courseFeatures: CourseFeature[] = [
     },
     {
         title: "100% Common Guarantee",
-        description: "Our meticulously designed course ensures you will face familiar questions in any exam.",
+        description: "My meticulously designed course ensures you will face familiar questions in any exam.",
         icon: Star,
     },
 ];

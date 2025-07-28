@@ -23,7 +23,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Why Choose This Course?
+              Why Choose My Course?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
               A complete package to master ICT for your HSC exams with a 100% common question guarantee.
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Words from Students
+              Words from My Students
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               See what past students have to say about their success.
@@ -73,7 +73,7 @@ export default function Home() {
                         className="rounded-full"
                         data-ai-hint="person"
                       />
-                       <div className="absolute inset-0 bg-image-overlay-2" />
+                       <div className="absolute inset-0 bg-image-overlay-full" />
                     </div>
                     <div>
                       <CardTitle className="text-lg">{testimonial.name}</CardTitle>
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Ready to Master ICT?</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join the course today and secure your A+ in the HSC exam. Your journey to success starts here.
+            Join my course today and secure your A+ in the HSC exam. Your journey to success starts here.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -111,7 +111,7 @@ export default function Home() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-               <a href="https://m.me/YOUR_USERNAME_HERE" target="_blank" rel="noopener noreferrer">Contact Sir</a>
+               <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">Contact Me</a>
             </Button>
           </div>
         </div>

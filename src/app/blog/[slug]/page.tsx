@@ -56,7 +56,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             priority
             data-ai-hint="technology abstract"
           />
-          <div className="absolute inset-0 bg-image-overlay-2" />
+          <div className="absolute inset-0 bg-image-overlay" />
         </div>
 
         <div

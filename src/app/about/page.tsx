@@ -26,7 +26,7 @@ export default function AboutPage() {
                 objectFit="cover"
                 objectPosition="top"
               />
-              <div className="absolute inset-0 bg-image-overlay-2"></div>
+              <div className="absolute inset-0 bg-image-overlay-full"></div>
             </div>
           </div>
           <div className="lg:col-span-2 space-y-6 text-center lg:text-left">

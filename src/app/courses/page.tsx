@@ -60,7 +60,7 @@ export default function CoursesPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We are so confident in our teaching methodology and materials that we offer a <strong>100% common question guarantee</strong> for your board exams. Our curriculum is designed to cover every possible angle, ensuring you are perfectly prepared.
+                  I am so confident in my teaching methodology and materials that I offer a <strong>100% common question guarantee</strong> for your board exams. My curriculum is designed to cover every possible angle, ensuring you are perfectly prepared.
                 </p>
               </CardContent>
             </Card>
@@ -74,8 +74,8 @@ export default function CoursesPage() {
                         Secure your spot and start your journey to mastering ICT.
                     </p>
                     <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                        <a href="https://m.me/YOUR_USERNAME_HERE" target="_blank" rel="noopener noreferrer">
-                            Contact Sir Now
+                        <a href="https://m.me/sakhawoatsunny.sir" target="_blank" rel="noopener noreferrer">
+                            Contact Me Now
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </a>
                     </Button>

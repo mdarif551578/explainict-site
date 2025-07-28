@@ -40,7 +40,7 @@ export default function BlogPage() {
                                 className="transition-transform duration-500 group-hover:scale-110"
                                 data-ai-hint="programming technology"
                             />
-                            <div className="absolute inset-0 bg-image-overlay-2"></div>
+                            <div className="absolute inset-0 bg-image-overlay"></div>
                         </div>
                         <CardHeader>
                             <Badge variant="outline" className="w-fit mb-2 border-accent text-accent">{post.slug.split('-')[0].toUpperCase()}</Badge>

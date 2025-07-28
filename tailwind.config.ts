@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'image-overlay': 'linear-gradient(to top, black 0%, rgba(0,0,0,0.5) 50%, transparent 100%)',
-        'image-overlay-2': 'linear-gradient(to top, black 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 100%)',
+        'image-overlay': 'linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 100%)',
+        'image-overlay-full': 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%)',
       },
       fontFamily: {
         body: ['Inter', 'sans-serif'],

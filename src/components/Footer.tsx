@@ -3,14 +3,14 @@ import { Code, Facebook, Youtube, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: '#' },
+    { name: 'Facebook', icon: Facebook, href: 'https://m.me/sakhawoatsunny.sir' },
     { name: 'YouTube', icon: Youtube, href: '#' },
   ];
 
   const quickLinks = [
     { href: '/courses', label: 'Courses' },
     { href: '/blog', label: 'Blog' },
-    { href: '/about', label: 'About Sir' },
+    { href: '/about', label: 'About Me' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -79,7 +79,7 @@ export default function Footer() {
 
         </div>
         <div className="mt-12 pt-8 border-t border-border/40 text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} Explain ICT HSC. All Rights Reserved. Designed with ❤️ for SakhawoaT SunnY SiR.</p>
+          <p>&copy; {new Date().getFullYear()} ICT HSC Guide by SakhawoaT SunnY SiR. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
