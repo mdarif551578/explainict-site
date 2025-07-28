@@ -1,16 +1,24 @@
 import Map from "@/components/Map";
-import CircuitBackground from "@/components/CircuitBackground";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function ContactPage() {
   return (
     <div>
-        <div className="relative py-16 md:py-20 lg:py-28 text-center">
-            <CircuitBackground />
-            <div className="container mx-auto px-4">
+        <div className="relative h-64 md:h-80 w-full">
+            <Image
+              src="https://placehold.co/1200x400.png"
+              alt="Contact center with operators"
+              layout="fill"
+              objectFit="cover"
+              className="opacity-40"
+              data-ai-hint="contact support"
+            />
+            <div className="absolute inset-0 bg-image-overlay" />
+            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Get In Touch</h1>
-                <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
+                <p className="mt-4 max-w-3xl text-lg text-slate-200">
                     Have questions or ready to enroll? Reach out to me.
                 </p>
             </div>

@@ -1,17 +1,24 @@
 import Image from "next/image";
 import { Award, BookOpen, Heart } from "lucide-react";
-import CircuitBackground from "@/components/CircuitBackground";
 
 export default function AboutPage() {
   return (
     <div className="bg-background text-foreground">
-      <div className="relative py-16 md:py-20 lg:py-28 text-center">
-        <CircuitBackground />
-        <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About SakhawoaT SunnY SiR</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-                A passionate educator dedicated to making ICT accessible for everyone.
-            </p>
+      <div className="relative h-64 md:h-80 w-full">
+        <Image
+          src="https://placehold.co/1200x400.png"
+          alt="A modern classroom or library"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-40"
+          data-ai-hint="library classroom"
+        />
+        <div className="absolute inset-0 bg-image-overlay" />
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About SakhawoaT SunnY SiR</h1>
+          <p className="mt-4 max-w-3xl text-lg text-slate-200">
+            A passionate educator dedicated to making ICT accessible for everyone.
+          </p>
         </div>
       </div>
 

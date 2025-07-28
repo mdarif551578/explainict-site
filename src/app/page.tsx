@@ -10,7 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 import { courseFeatures, testimonials } from "@/data/content";
-import { ArrowRight, CheckCircle, Star } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 import CircuitBackground from "@/components/CircuitBackground";
 
 export default function Home() {
@@ -23,15 +23,15 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Why Choose My Course?
+              Why Choose This Course?
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              A complete package to master ICT for your HSC exams with a 100% common question guarantee.
+            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+              A complete, result-oriented package designed to help you master ICT for your HSC exams with a 100% common question guarantee. This course is more than just classes; it's a partnership for your success.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {courseFeatures.map((feature, index) => (
-              <Card key={index} className="bg-card/80 backdrop-blur-sm border-border/50 shadow-lg hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300">
+              <Card key={index} className="bg-card/80 backdrop-blur-sm border-border/50 shadow-lg hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300 flex flex-col">
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
@@ -40,7 +40,7 @@ export default function Home() {
                     <CardTitle className="text-xl">{feature.title}</CardTitle>
                   </div>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="flex-grow">
                   <p className="text-muted-foreground">{feature.description}</p>
                 </CardContent>
               </Card>
@@ -70,7 +70,6 @@ export default function Home() {
                         alt={testimonial.name}
                         layout="fill"
                         objectFit="cover"
-                        className="rounded-full"
                         data-ai-hint="person"
                       />
                        <div className="absolute inset-0 bg-image-overlay-full" />

@@ -9,19 +9,26 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { syllabus } from "@/data/content";
 import { ArrowRight, CheckCircle, ShieldCheck } from "lucide-react";
-import CircuitBackground from "@/components/CircuitBackground";
 import Image from "next/image";
 
 export default function CoursesPage() {
   return (
     <div className="bg-background text-foreground">
-      <div className="relative py-16 md:py-20 lg:py-28 text-center">
-        <CircuitBackground />
-        <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">The Ultimate HSC ICT Course</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-                A meticulously crafted 4-month program to ensure your success.
-            </p>
+       <div className="relative h-64 md:h-80 w-full">
+        <Image
+          src="https://placehold.co/1200x400.png"
+          alt="Students learning in a classroom"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-40"
+          data-ai-hint="students classroom"
+        />
+        <div className="absolute inset-0 bg-image-overlay" />
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-4">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">The Ultimate HSC ICT Course</h1>
+          <p className="mt-4 max-w-3xl text-lg text-slate-200">
+            A meticulously crafted 4-month program to ensure your success.
+          </p>
         </div>
       </div>
 
@@ -38,9 +45,9 @@ export default function CoursesPage() {
                   <AccordionContent>
                     <ul className="list-none space-y-2 pl-4">
                       {item.topics.map((topic, i) => (
-                        <li key={i} className="flex items-center gap-2 text-muted-foreground">
-                          <CheckCircle className="h-4 w-4 text-primary" />
-                          {topic}
+                        <li key={i} className="flex items-start gap-2 text-muted-foreground">
+                          <CheckCircle className="h-4 w-4 text-primary mt-1 shrink-0" />
+                          <span>{topic}</span>
                         </li>
                       ))}
                     </ul>

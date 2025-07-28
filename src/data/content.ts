@@ -1,4 +1,4 @@
-import { BookCopy, CheckSquare, Clock, Star, type LucideIcon } from "lucide-react";
+import { BookCopy, CheckSquare, Clock, Star, type LucideIcon, BrainCircuit, Target, BookOpenText, Users } from "lucide-react";
 
 export interface BlogPost {
   slug: string;
@@ -50,10 +50,10 @@ export const blogPosts: BlogPost[] = [
       <p class="mb-4">HTML (HyperText Markup Language) provides the basic structure of sites. Think of it as the skeleton that holds everything together. You use tags like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;div&gt;</code> to organize content.</p>
       <h3 class="text-xl font-bold mb-2">CSS: The Style</h3>
       <p class="mb-4">CSS (Cascading Style Sheets) is used to style the HTML. Colors, fonts, layouts - it's all handled by CSS. It's what makes websites look good.</p>
-      <pre class="bg-gray-800 text-white p-4 rounded-md my-4"><code class="language-css">
+      <pre class="bg-card text-foreground p-4 rounded-md my-4"><code class="language-css">
 body {
   font-family: 'Inter', sans-serif;
-  color: #333;
+  color: #FFFFFF;
 }
       </code></pre>
       <p>A solid understanding of both is required for the practical and theoretical parts of your exam.</p>
@@ -71,7 +71,7 @@ body {
       <p class="mb-4">Chapter 5, "Programming Language," is often the most challenging for students. This post will demystify the basics of C.</p>
       <h3 class="text-xl font-bold mb-2">Your First Program: "Hello, World!"</h3>
       <p class="mb-4">Every programmer starts here. It's a simple program that prints "Hello, World!" to the screen.</p>
-      <pre class="bg-gray-800 text-white p-4 rounded-md my-4"><code class="language-c">
+      <pre class="bg-card text-foreground p-4 rounded-md my-4"><code class="language-c">
 #include &lt;stdio.h&gt;
 
 int main() {
@@ -99,24 +99,24 @@ interface CourseFeature {
 
 export const courseFeatures: CourseFeature[] = [
     {
-        title: "4-Month Course",
-        description: "A comprehensive curriculum designed to cover the entire HSC ICT syllabus from start to finish.",
-        icon: Clock,
+        title: "Simplified Learning",
+        description: "Complex topics are broken down into simple, easy-to-digest modules that make learning ICT feel effortless and enjoyable.",
+        icon: BrainCircuit,
     },
     {
-        title: "50+ Topic Classes",
-        description: "In-depth, topic-based classes that break down complex concepts into easy-to-understand lessons.",
-        icon: BookCopy,
+        title: "Targeted Exam Prep",
+        description: "Focused preparation for CQ, MCQ, and practical exams, with special techniques to answer any question.",
+        icon: Target,
     },
     {
-        title: "12 Chapter Exams",
-        description: "Rigorous chapter-based exams to test your knowledge and prepare you for the real test.",
-        icon: CheckSquare,
+        title: "Exclusive Resources",
+        description: "Get access to my custom-made, exclusive lecture sheets and notes that you won't find anywhere else.",
+        icon: BookOpenText,
     },
     {
-        title: "100% Common Guarantee",
-        description: "My meticulously designed course ensures you will face familiar questions in any exam.",
-        icon: Star,
+        title: "Supportive Community",
+        description: "Join a community of dedicated learners. Get your doubts cleared anytime in our private Messenger group.",
+        icon: Users,
     },
 ];
 
@@ -152,26 +152,26 @@ export const testimonials: Testimonial[] = [
 export const syllabus = [
     {
         chapter: "Chapter 1: Information & Communication Technology: World & Bangladesh Perspective",
-        topics: ["Concept of World Village", "Communication", "Networking", "Value of ICT in society"],
+        topics: ["Concept of World Village & its elements", "Virtual Reality", "Artificial Intelligence", "Robotics", "Cryosurgery", "Biometrics & Bioinformatics", "Genetic Engineering & Nanotechnology"],
     },
     {
         chapter: "Chapter 2: Communication Systems & Networking",
-        topics: ["Communication Medium", "Wireless Communication", "Networking Devices", "Cloud Computing"],
+        topics: ["Concept of Communication", "Data Transmission Methods & Modes", "Communication Mediums (Wired & Wireless)", "Wireless Communication Technologies (Bluetooth, Wi-Fi, WiMAX)", "Mobile Communication Generations", "Computer Networking & Topologies", "Networking Devices", "Cloud Computing"],
     },
     {
         chapter: "Chapter 3: Number Systems & Digital Devices",
-        topics: ["Number Systems Conversion", "Binary Logic", "Logic Gates", "Encoders & Decoders"],
+        topics: ["Number Systems & Conversions", "2's Complement", "Binary Logic & Codes (BCD, ASCII, EBCDIC, Unicode)", "Logic Gates (Basic, Universal, Special)", "Encoders & Decoders", "Adders (Half & Full)"],
     },
     {
         chapter: "Chapter 4: Introduction to Web Design & HTML",
-        topics: ["Concept of Website", "HTML Fundamentals", "Creating Tables", "Hyperlinks and Images"],
+        topics: ["Concept of Website & Structure", "HTML Fundamentals & Tags", "Text Formatting", "Creating Tables", "Hyperlinks and Images", "Website Publishing"],
     },
     {
         chapter: "Chapter 5: Programming Language",
-        topics: ["Concepts of Programming", "C Programming Basics", "Control Structures", "Arrays and Functions"],
+        topics: ["Concepts of Programming & Generations", "Algorithms, Flowcharts & Pseudocode", "C Programming Basics (Variables, Data Types, Keywords, Operators)", "Input/Output Statements", "Conditional Statements (if, else, switch)", "Loop Control Structures (for, while, do-while)", "Arrays and Functions"],
     },
     {
         chapter: "Chapter 6: Database Management System",
-        topics: ["Database Concepts", "RDBMS", "Introduction to SQL", "Data Security"],
+        topics: ["Database Concepts (DBMS, RDBMS)", "Data Models & Relationships", "Introduction to SQL (DDL, DML, DQL)", "Data Security & Normalization"],
     },
 ];
